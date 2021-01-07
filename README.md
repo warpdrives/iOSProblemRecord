@@ -4,15 +4,6 @@
    [来源](https://www.jianshu.com/p/1a041dafa71d) <br/>
    问题修复：<br/>
    (```)
-
-   -(void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext{
-    ...
-    
-    [containerView addSubview:toVC.view];
-    ...
-    
-   }
-   
    fix:
    
     -(void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext{
@@ -25,6 +16,5 @@
     ...
     
     }
-    
     (```)
   
